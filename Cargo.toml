@@ -1,0 +1,13 @@
+[package]
+name = "datafusion-regexp-extract"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+datafusion = "55.2"
+datafusion-common = "55.2.0"
+datafusion-expr = "55.2.0"
+regex = "1"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
