@@ -1,6 +1,6 @@
 # datafusion-regexp-extract
 
-Spark `regexp_extract`, implemented as a DataFusion scalar function and called from the DataFrame API.
+Spark [`regexp_extract`](https://spark.apache.org/docs/latest/api/sql/string-functions/#regexp_extract), implemented as a DataFusion scalar function and called from the DataFrame API.
 
 ## Design
 
